@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background: #16a085;
+    color: #fff;
+}
+
+header .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+}
+
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+}
+
+.button {
+    background-color: #1abc9c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #16a085;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 100%;
+}
+
+form button {
+    padding: 10px;
+    background-color: #16a085;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #1abc9c;
+}
